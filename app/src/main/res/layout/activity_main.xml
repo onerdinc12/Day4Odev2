@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.onder.day4odev.MainActivity"
+    android:weightSum="1">
+
+
+    <Button
+        android:text="Kartal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="kartal"
+        android:id="@+id/kartal" />
+
+    <Button
+        android:text="Guvercin"
+        android:layout_width="350dp"
+        android:onClick="guvercin"
+        android:layout_height="37dp"
+        android:id="@+id/guvercin" />
+
+    <Button
+        android:text="Kanaraya"
+        android:layout_width="348dp"
+        android:onClick="kanarya"
+        android:layout_height="wrap_content"
+        android:id="@+id/kanarya" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/imageView"
+        android:layout_weight="0.39" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+</LinearLayout>
